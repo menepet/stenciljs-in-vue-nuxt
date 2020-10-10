@@ -1,0 +1,25 @@
+{
+  "name": "stenciljs-in-vue-nuxt",
+  "version": "0.0.0",
+  "description": "Demo monorepo guide to consume a non-trivial stencil component in a Vue or Nuxt app",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap && husky install",
+    "start": "lerna run start --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/menepet/stenciljs-in-vue-nuxt"
+  },
+  "author": "menepet<menepet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/menepet/stenciljs-in-vue-nuxt/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "husky": "^5.0.0-alpha.6"
+  }
+}
